@@ -3,6 +3,8 @@
 
 ## Linear Regression to Predict MPG
 
+### Linear Regression<br>
+![Linear Regression](/Images/Linear_regression.png)
 ### Linear Regression Summary<br>
 ![Linear Regression Summary](/Images/Linear_regression_summary.png)
 
