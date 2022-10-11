@@ -8,6 +8,7 @@
 ### Linear Regression Summary<br>
 ![Linear Regression Summary](/Images/Linear_regression_summary.png)
 
+In the images above, a linear regression was performed on a small list containing the data of 50 vehicles; this data includes: length, weight, spoiler angle, ground clearance, AWD, and mpg. By performing this linear regression model on the data, a summarization function was performed on it to obtain the slope of each as well as the Pr(>|t|) value and R-squared value. 
 
 Based on the Pr(>|t|) values shown in the linear summary represents the probability that each provides a random amount of variance. With this said, the vehicle length and ground clearance are the two variables that provide non-random variance with their Pr(>|t|) values being so small (2.60e-12 and 5.21e-08).
 
@@ -23,6 +24,8 @@ Looking at the data above, it can be seen that the R-squared values is 0.71 whic
 
 ### Stats Summary by Lot
 ![lot_summary](/Images/lot_summary.png)
+
+The two images show the statistical data mean, median, variance, and standard deviation; the top images being the information as a whole while the other groups the information based on the manufacturing lot. This information was derived from a small csv file containing the information of 150 vehicles, containing information on the vehicle id, lot number, and PSI.
 
 In accordance to the design, MechaCar suspension coils state that the variance of the suspension coils cannot be greater than 100 pounds per square inch. As a whole, the specification will be met these criteria, coming in with a variance of 62; however, if looking at the manufacturing lots, Lot3 has a massive variance of 170, not meeting specifications. The other lots pass well into spec with Lot1 at about 1 and Lot2 at about 7, but Lot3 has a very large spike when compared to the other lots.
 
