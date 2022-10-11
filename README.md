@@ -36,19 +36,17 @@ In accordance to the design, MechaCar suspension coils state that the variance o
 ### T-Test of All Lots
 ![ttest_all_lots](/Images/ttest_all_lots.png)
 
-### T-Test of Lot 1
+### T-Test of Lot1
 ![ttest_lot1](/Images/ttest_lot1.png) 
 
-### T-Test of Lot 2
+### T-Test of Lot2
 ![ttest_lot2](/Images/ttest_lot2.png) 
 
-### T-Test of Lot 3
+### T-Test of Lot3
 ![ttest_lot3](/Images/ttest_lot3.png)
 
 
-
-brief summary of your interpretation and findings for the t-test
-
+Based on the p-values, only the Lot3 T-test is considered statisitically significant with a value lower than 0.05 (assuming a significance level of 0.05). The lots as a whole have a p-value of 0.06 while Lot1 has a p-value of 1 and Lot-2 has a p-value of 0.61; because these values are concidered an statisitically insignificant, it can be said that they failed to reject a null hypothesis.  
 
 
 ## Study Design: MechaCar vs Competition
