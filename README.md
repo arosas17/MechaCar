@@ -6,11 +6,12 @@
 ### Linear Regression Summary<br>
 ![Linear Regression Summary](/Images/Linear_regression_summary.png)
 
-Give screenshot of Results
 
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Based on the Pr(>|t|) values shown in the linear summary represents the probability that each provides a random amount of variance. With this said, the vehicle length and ground clearance are the two variables that provide non-random variance with their Pr(>|t|) values being so small (2.60e-12 and 5.21e-08).
+
+The slope of the data will not be zero as shown by the estimate section in the above image which display the estimated slopes of each. Although, the estimates of spoiler angle and wight are small enough to be considered zero, the other variables have values of non-zero such as 6.27, 3.55, and -3.41, giving their slope significance. 
+
+Looking at the data above, it can be seen that the R-squared values is 0.71 which is fairly close to 1. This shows that the linear model correlates well with the data and so will be able to make predictions of mpg of MechaCar prototypes.
 
 
 ## Summary Statistics on Suspension Coils
