@@ -16,8 +16,6 @@ Looking at the data above, it can be seen that the R-squared values is 0.71 whic
 
 ## Summary Statistics on Suspension Coils
 
-Add screenshots of (total_summary and lot_summary), also write summary
-
 ### Stats Summary 
 ![total_summary](/Images/total_summary.png)
 
