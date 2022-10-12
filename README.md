@@ -51,10 +51,19 @@ Based on the p-values, only the Lot3 T-test is considered statisitically signifi
 
 ## Study Design: MechaCar vs Competition
 
+To compete with the competition, a study can be completed to see how MechaCar vehicles compare how the safety ratings of vehicles are and see how they compare. To test this several variables will be used.
 
-short description of a statistical study that can quantify how the MechaCar performs against competition
+Metrics to be used:
+  * Number of serious injuries / deaths
+  * List of similar car models: MechaCar vs Competition
+  * Car weight
+  * Seatbelts (on/off)
+  * Velocity of crash
 
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+  The null hypothesis will be that there will be little to no difference in the injuries and deaths over the course of 2 years.
+  The alternative hypothesis suggests that there will be a significant difference in the total number of injuries and deaths over the course of 2 years.
+
+To test these hypothesizes, it would be ideal to perform line regression models on the MechaCar vehicles and competitor vehicles to see if the slopes and the line intercepts are about the same, which will give great information on the trend between each. In addition to this, obtaining the mean, median, variance, and standard deviation on the total number of the velocity and weight would be great in determining which gets into more crashes overall and a better understanding how these crashes emerged.
+
+Certain data will be needed for this study. Some information is needed so that may obtain a similar circumstance as much as possible. One piece of information that is needed is if the seatbelt was in use. It will throw the data off if a person been tallied as injured who did not wear a seatbelt but someone in same type of car crash came out completely unharmed. For similar reasoning, a list of MechaCar models and a list similar model to our competitors. The vehicle's weight and velocity of the crash is important in determining the severity of the crash so that it may be compared with crashes of similar severity. Also, the fatalities and injuries that occurred will be used to compare the information. 
+
